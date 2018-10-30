@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxiao23.EasyGO.dao.AgencyInfoDao">
+
+
+    <resultMap id="agencyInfo" type="AgencyInfo">
+        <id property="agencyId" column="agency_id" javaType="String"/>
+        <result property="agencyName" column="agency_name" javaType="String"/>
+        <result property="agencyLocation" column="agency_location" javaType="String"/>
+        <result property="agencyPhone" column="agency_phone" javaType="String"/>
+        <result property="agencyLongitude" column="agency_longitude" javaType="double"/>
+        <result property="agencyLatitude" column="agency_latitude" javaType="double"/>
+    </resultMap>
+
+
+    <insert id="insert" parameterType="AgencyInfo">
+        insert into agencyInfo values(#{agencyId},#{agencyName},#{agencyLocation},#{agencyPhone},#{agencyLongitude},#{agencyLatitude})
+    </insert>
+
+    <update id="update" parameterType="AgencyInfo">
+        update agencyInfo set agency_name=#{agencyName},agency_location=#{agencyLocation},agency_phone=#{agencyPhone},
+         agency_longitude=#{agencyLongitude},agency_latitude=#{agencyLatitude} where agency_id=#{agencyId}
+    </update>
+
+    <delete id="delete" parameterType="String">
+        delete from agencyInfo  where agency_id=#{agencyId}
+    </delete>
+
+    <select id="select" parameterType="String" resultMap="agencyInfo">
+        select * from agencyInfo where agency_id=#{agencyId}
+    </select>
+
+    <select id="selectAll" resultMap="agencyInfo">
+        select * from agencyInfo
+    </select>
+
+</mapper>

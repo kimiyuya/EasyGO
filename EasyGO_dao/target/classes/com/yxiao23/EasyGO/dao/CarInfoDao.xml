@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxiao23.EasyGO.dao.CarInfoDao">
+
+
+    <resultMap id="carInfo" type="CarInfo">
+        <id property="carId" column="car_id" javaType="String"/>
+        <result property="carBrand" column="car_brand" javaType="String"/>
+        <result property="carName" column="car_name" javaType="String"/>
+        <result property="carType" column="car_type" javaType="String"/>
+        <result property="carPrice" column="car_price" javaType="BigDecimal"/>
+        <result property="carDescribe" column="car_describe" javaType="String"/>
+        <result property="carImage" column="car_image" javaType="String"/>
+        <result property="agencyId" column="agency_id" javaType="String"/>
+        <association property="agencyInfo" column="agency_id" javaType="AgencyInfo">
+            <id property="agencyId" column="aid" javaType="String"/>
+            <result property="agencyName" column="agency_name" javaType="String"/>
+            <result property="agencyLocation" column="agency_location" javaType="String"/>
+            <result property="agencyPhone" column="agency_phone" javaType="String"/>
+        </association>
+    </resultMap>
+
+
+    <insert id="insert" parameterType="CarInfo">
+        insert into carInfo values(#{carId},#{carBrand},#{carName},#{carType},#{carPrice},
+        #{carDescribe},#{carImage},#{agencyId})
+    </insert>
+
+    <update id="update" parameterType="CarInfo">
+        update carInfo set car_brand=#{carBrand},car_name=#{carName},car_type=#{carType},
+         car_price=#{carPrice},car_describe=#{carDescribe},car_image=#{carImage},agency_id=#{agencyId}
+         where car_id=#{carId}
+    </update>
+
+    <delete id="delete" parameterType="String">
+        delete from carInfo  where car_id=#{carId}
+    </delete>
+
+    <select id="select" parameterType="String" resultMap="carInfo">
+        select c.*,a.agency_id aid,a.agency_name,a.agency_location,a.agency_phone
+        from carInfo c left join agencyInfo a on a.agency_id=c.agency_id
+        where c.car_id=#{carId}
+    </select>
+
+    <select id="selectAll" resultMap="carInfo">
+        select c.*,a.agency_id aid,a.agency_name,a.agency_location,a.agency_phone
+        from carInfo c left join agencyInfo a on a.agency_id=c.agency_id
+    </select>
+
+</mapper>
