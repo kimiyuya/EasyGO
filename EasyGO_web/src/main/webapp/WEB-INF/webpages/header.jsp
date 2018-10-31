@@ -20,6 +20,8 @@
                     <%--<li><a href="register.jsp">Sign in</a></li>--%>
 
 
+
+
                     <c:if test="${empty user}">
                         <li><a href="login.jsp">Login</a></li>
                         <li><a href="register.jsp">Sign in</a></li>
