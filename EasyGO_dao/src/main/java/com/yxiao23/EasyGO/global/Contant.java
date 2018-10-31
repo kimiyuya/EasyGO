@@ -57,5 +57,13 @@ public class Contant {
         return list;
     }
 
+    //用户类别
+    public static List<String> getUserType(){
+        List<String> list = new ArrayList<String>();
+        list.add("user");
+        list.add("manager");
+        return list;
+    }
+
     //订单状态
 }

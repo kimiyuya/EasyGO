@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxiao23.EasyGO.dao.UsersDao">
+
+
+    <resultMap id="users" type="Users">
+        <id property="userId" column="user_id" javaType="String"/>
+        <result property="password" column="password" javaType="String"/>
+        <result property="userName" column="user_name" javaType="String"/>
+        <result property="userType" column="user_type" javaType="String"/>
+        <result property="userPhone" column="user_phone" javaType="String"/>
+    </resultMap>
+
+
+    <insert id="insert" parameterType="Users">
+        insert into users values(#{userId},#{password},#{userName},#{userType},#{userPhone})
+    </insert>
+
+    <update id="update" parameterType="Users">
+        update users set password=#{password},user_name=#{userName},user_type=#{userType},user_phone=#{userPhone}
+        where user_id=#{userId}
+    </update>
+
+    <delete id="delete" parameterType="String">
+        delete from users  where user_id=#{userId}
+    </delete>
+
+    <select id="select" parameterType="String" resultMap="users">
+        select * from users where user_id=#{userId}
+    </select>
+
+    <select id="selectAll" resultMap="users">
+        select * from users
+    </select>
+
+</mapper>

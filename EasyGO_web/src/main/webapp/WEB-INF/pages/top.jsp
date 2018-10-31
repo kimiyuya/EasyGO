@@ -87,11 +87,11 @@
                     </a>
                     <ul class="nav sub-nav">
                         <li>
-                            <a href="/carInfo/list">
+                            <a href="/users/list">
                                 <span class="glyphicon glyphicon-calendar"></span> All Users </a>
                         </li>
                         <li class="active">
-                            <a href="/carInfo/to_add">
+                            <a href="/users/to_add">
                                 <span class="glyphicon glyphicon-check"></span> Add Users </a>
                         </li>
                     </ul>

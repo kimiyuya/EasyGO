@@ -7,13 +7,183 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0f09a8d-f07b-4f06-a2de-2e81d795d032" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/UsersBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/UsersBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/UsersDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_dao/target/classes/com/yxiao23/EasyGO/global/Contant.class" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_dao/target/classes/com/yxiao23/EasyGO/global/Contant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_biz-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_biz-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/pages/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/car.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/car_location.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/webpages/car_location.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/car.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/car_location.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/choose_car.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/confirmation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/choose_car.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/cs-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/cs-skin-border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/css/superfish.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/flight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/fonts/icomoon/icomoon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/hotel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/car-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/cover_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/cover_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/cover_bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/cover_bg_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/cover_bg_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/images/place-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/hoverIntent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/magnific-popup-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/selectFx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/js/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/review.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/vacation.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,36 +207,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="34" />
+          <entry key="java" value="54" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="18" />
-          <entry key="xml" value="20" />
+          <entry key="jsp" value="25" />
+          <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="34" />
-          <entry key="JSP" value="18" />
+          <entry key="JAVA" value="54" />
+          <entry key="JSP" value="25" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="1469" />
-          <entry key="jsp" value="1012" />
-          <entry key="xml" value="741" />
+          <entry key="java" value="1719" />
+          <entry key="jsp" value="1229" />
+          <entry key="xml" value="767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1469" />
-          <entry key="JSP" value="1012" />
+          <entry key="JAVA" value="1719" />
+          <entry key="JSP" value="1229" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="5" />
-          <entry key="XML" value="736" />
+          <entry key="XML" value="762" />
         </counts>
       </usages-collector>
     </session>
@@ -74,68 +244,105 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml">
+        <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/UsersDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="e#1727#1735#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-141">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_update.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="310">
+              <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_list.jsp">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="859">
+              <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/UsersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -143,8 +350,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -160,6 +367,7 @@
       <find>method</find>
       <find>sn</find>
       <find>agency</find>
+      <find>agen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,11 +398,9 @@
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/CarInfoDao.xml" />
         <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/CarInfoBiz.java" />
         <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/CarInfoBizImpl.java" />
-        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_add.jsp" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_update.jsp" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp" />
-        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp" />
         <option value="$PROJECT_DIR$/EasyGO_web/pom.xml" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_update.jsp" />
@@ -203,6 +409,17 @@
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_add.jsp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/Users.java" />
+        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/UsersDao.java" />
+        <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/UsersBiz.java" />
+        <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/UsersBizImpl.java" />
+        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/UsersDao.xml" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_list.jsp" />
+        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_add.jsp" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_update.jsp" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp" />
       </list>
     </option>
   </component>
@@ -226,11 +443,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="671" />
     <option name="y" value="23" />
-    <option name="width" value="1632" />
-    <option name="height" value="953" />
+    <option name="width" value="1249" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -245,6 +465,160 @@
               <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +629,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540955601667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541004586443" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -436,7 +810,7 @@
       </method>
     </configuration>
     <configuration name="agencyInfo_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/agencyInfo/list" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/users/list" />
       <deployment>
         <artifact name="EasyGO_web:war exploded">
           <settings>
@@ -507,7 +881,80 @@
         </option>
       </method>
     </configuration>
+    <configuration name="users_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/pages/users_list.jsp" />
+      <deployment>
+        <artifact name="EasyGO_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="users_list_jsp_EasyGO" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62091" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EasyGO_web:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Tomcat Server.users_list.jsp" />
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp" />
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp (1)" />
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp (2)" />
@@ -535,7 +982,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45800000" />
+    <option name="totallyTimeSpent" value="56264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,27 +994,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="953" extended-state="6" />
+    <frame x="671" y="23" width="1249" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14835165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840763" visible="true" weight="0.24357912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.50159234" side_tool="true" weight="0.24192213" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2915215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29039547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.33914053" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3289941" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.49361208" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.259887" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -603,35 +1050,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_biz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-dao.xml" />
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/assets/js/demo/charts/d3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -656,9 +1074,222 @@
     <entry file="file://$USER_HOME$/rentCar/car-project/src/main/java/cn/lnj/project/car/data/Car.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/AgencyInfo.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/AgencyInfoBiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/CarInfoBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Spring教学源码/SSM整合开发源代码/oa/oa_dao/src/main/java/com/imooc/oa/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/resources/spring-biz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/CarInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/AgencyInfoBizImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/utilities/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/AgencyInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/CarInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/UsersBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/CarInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/AgencyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
           <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding>
             <element signature="e#354#355#0" expanded="true" />
@@ -689,159 +1320,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/AgencyInfoDao.xml">
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="11" selection-end-column="86" />
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/AgencyInfoBiz.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/UsersDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/CarInfoBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/AgencyInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Spring教学源码/SSM整合开发源代码/oa/oa_dao/src/main/java/com/imooc/oa/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/CarInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/resources/spring-biz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/CarInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-841">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#447#477#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/CarInfoBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="225">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -849,37 +1347,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/CarInfo.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/AgencyInfoDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/AgencyInfoBizImpl.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/UsersBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml">
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/com/yxiao23/EasyGO/dao/UsersDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="83" column="22" lean-forward="true" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/Contant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#1727#1735#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="859">
           <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -887,38 +1439,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/utilities/FileUpload.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/users_update.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_add.jsp">
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="310">
+          <caret line="98" column="20" lean-forward="true" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
         </state>
       </provider>
     </entry>
