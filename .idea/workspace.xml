@@ -6,8 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f0f09a8d-f07b-4f06-a2de-2e81d795d032" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="f0f09a8d-f07b-4f06-a2de-2e81d795d032" name="Default Changelist" comment="Add wab pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/gongjunrui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/classes/com/yxiao23/EasyGO/global/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/classes/com/yxiao23/EasyGO/global/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_biz-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_biz-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/EasyGO_web/WEB-INF/lib/EasyGO_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasyGO_web/target/classes/com/yxiao23/EasyGO/global/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/EasyGO_web/target/classes/com/yxiao23/EasyGO/global/EncodingFilter.class" afterDir="false" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,16 +45,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="java" value="34" />
           <entry key="js" value="2" />
+<<<<<<< HEAD
           <entry key="jsp" value="19" />
           <entry key="xml" value="20" />
+=======
+          <entry key="jsp" value="18" />
+          <entry key="xml" value="19" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
-          <entry key="JSP" value="19" />
+          <entry key="JAVA" value="34" />
+          <entry key="JSP" value="18" />
           <entry key="JavaScript" value="2" />
           <entry key="XML" value="20" />
         </counts>
@@ -47,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="1470" />
+          <entry key="java" value="1469" />
           <entry key="jsp" value="1012" />
           <entry key="xml" value="741" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1470" />
+          <entry key="JAVA" value="1469" />
           <entry key="JSP" value="1012" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="5" />
@@ -62,34 +82,75 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="554038475">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="java" value="4" />
+          <entry key="jsp" value="6" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="4" />
+          <entry key="JSP" value="6" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="14" />
+          <entry key="txt" value="20" />
+          <entry key="xml" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="XML" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/utilities/FileUpload.java">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
+            <state relative-caret-position="-264" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/top.jsp">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
+<<<<<<< HEAD
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -100,38 +161,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+=======
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/bottom.jsp">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/car_location.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/car.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state relative-caret-position="210">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -142,8 +200,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -169,17 +227,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/EasyGO_dao/pom.xml" />
         <option value="$PROJECT_DIR$/EasyGO_biz/pom.xml" />
-        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/EasyGO_biz/src/main/resources/spring-biz.xml" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/agencyInfo.java" />
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/agencyInfoDao.java" />
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/AgencyInfoDao.java" />
         <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/AgencyInfoBiz.java" />
         <option value="$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/AgencyInfoBizImpl.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_list.jsp" />
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/carInfo.java" />
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/dao/CarInfoDao.java" />
@@ -200,7 +255,10 @@
         <option value="$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/CarInfo.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java" />
         <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_add.jsp" />
-        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/dto/gongjunrui.java" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/gongjunrui.jsp" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java" />
+        <option value="$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml" />
       </list>
     </option>
   </component>
@@ -218,17 +276,62 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="487" />
     <option name="y" value="23" />
     <option name="width" value="1014" />
     <option name="height" value="977" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,6 +341,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,25 +374,89 @@
               <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yxiao23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yxiao23" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyGO" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyGO_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540950071582" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540949493035" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.side.proportion" value="0.19895288" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -316,7 +484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.agencyInfo_list.jsp">
+  <component name="RunManager" selected="Tomcat Server.carInfo_list.jsp">
     <configuration name="agencyInfo_list.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/pages/agencyInfo_list.jsp" />
       <deployment>
@@ -534,13 +702,91 @@
         </option>
       </method>
     </configuration>
+    <configuration name="carInfo_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/WEB-INF/pages/carInfo_list.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="EasyGO_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="carInfo_list_jsp_EasyGO" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54816" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="EasyGO_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp" />
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp (1)" />
       <item itemvalue="Tomcat Server.agencyInfo_list.jsp (2)" />
+      <item itemvalue="Tomcat Server.carInfo_list.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.carInfo_list.jsp" />
         <item itemvalue="Tomcat Server.agencyInfo_list.jsp" />
         <item itemvalue="Tomcat Server.agencyInfo_list.jsp (2)" />
         <item itemvalue="Tomcat Server.agencyInfo_list.jsp (1)" />
@@ -557,12 +803,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540795331075</updated>
+<<<<<<< HEAD
       <workItem from="1540795336645" duration="47797000" />
+=======
+      <workItem from="1540795336645" duration="44744000" />
+      <workItem from="1540937364195" duration="958000" />
+      <workItem from="1540938375785" duration="697000" />
+      <workItem from="1540939103536" duration="2919000" />
     </task>
+    <task id="LOCAL-00001" summary="lalal">
+      <created>1540937630573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540937630573</updated>
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="47797000" />
+=======
+    <option name="totallyTimeSpent" value="49318000" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,6 +839,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="487" y="23" width="1014" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -596,19 +862,43 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38079095" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.22317597" />
+      <window_info id="Structure" order="1" sideWeight="0.5006196" side_tool="true" weight="0.22317597" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28996283" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289941" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289941" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32713756" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3272543" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32908705" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,17 +907,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lalal" />
+    <MESSAGE value="Add wab pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add wab pages" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EasyGO_dao/pom.xml">
@@ -644,6 +927,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -654,6 +938,9 @@
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-dao.xml" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/assets/js/demo/charts/d3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -661,9 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/assets/js/demo/charts/d3.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/global/assets/js/demo/charts/d3.js" />
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -674,42 +959,12 @@
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/rentCar/car-project/src/main/java/cn/lnj/project/car/data/Shop.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/rentCar/car-project/src/main/java/cn/lnj/project/car/data/Car.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/rentCar/car-project/src/main/java/cn/lnj/project/car/data/Shop.java" />
+    <entry file="file://$USER_HOME$/rentCar/car-project/src/main/java/cn/lnj/project/car/data/Car.java" />
     <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/java/com/yxiao23/EasyGO/entity/AgencyInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,15 +993,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Spring教学源码/SSM整合开发源代码/oa/oa_dao/src/main/java/com/imooc/oa/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Spring教学源码/SSM整合开发源代码/oa/oa_dao/src/main/java/com/imooc/oa/entity/Employee.java" />
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -764,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,26 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-841">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="e#447#477#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,9 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/agencyInfo_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -842,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -856,20 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EasyGO_biz/src/main/java/com/yxiao23/EasyGO/biz/impl/CarInfoBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,10 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,26 +1085,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml">
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/dto/gongjunrui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/carInfo_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="795">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -918,13 +1109,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/utilities/FileUpload.java">
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/AgencyInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/gongjunrui.jsp" />
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/pages/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/top.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/global/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/utilities/FileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/controller/CarInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/java/com/yxiao23/EasyGO/dto/gongjunrui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -943,6 +1179,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/car_location.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_web/src/main/webapp/WEB-INF/webpages/car.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasyGO_dao/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+>>>>>>> 348ac596e2f1d687def61facc4b543765d220622
         </state>
       </provider>
     </entry>
@@ -956,7 +1247,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19895288" />
                 <option value="0.5" />
               </list>
             </option>
@@ -969,7 +1260,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19895288" />
               </list>
             </option>
           </splitter-proportions>
@@ -1000,12 +1291,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EasyGO_web</last-edited>
+          <last-edited>EasyGO_dao</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.19895288" />
               </list>
             </option>
           </splitter-proportions>
@@ -1025,11 +1315,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: mysql:mysql-connector-java:5.1.44</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19895288" />
               </list>
             </option>
           </splitter-proportions>
