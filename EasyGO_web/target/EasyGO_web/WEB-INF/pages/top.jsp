@@ -66,6 +66,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="sidebar-widget search-widget hidden">
                     <div class="input-group">
                         <span class="input-group-addon">
