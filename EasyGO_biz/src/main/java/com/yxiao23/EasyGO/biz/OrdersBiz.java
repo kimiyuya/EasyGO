@@ -1,7 +1,6 @@
 package com.yxiao23.EasyGO.biz;
 
-import com.yxiao23.EasyGO.entity.AgencyInfo;
-import com.yxiao23.EasyGO.entity.Users;
+import com.yxiao23.EasyGO.entity.Orders;
 
 import java.util.List;
 
@@ -9,10 +8,11 @@ import java.util.List;
  * @author yulinxiao
  * @date 2018-10-29 04:41
  */
-public interface UsersBiz {
-    void add(Users users);
-    void edit(Users users);
+
+public interface OrdersBiz {
+    void add(Orders orders);
+    void edit(Orders orders);
     void remove(String id);
-    Users get(String id);
-    List<Users> getAll();
+    Orders get(String id);
+    List<Orders> getAll();
 }

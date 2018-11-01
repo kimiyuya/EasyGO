@@ -1,6 +1,9 @@
 package com.yxiao23.EasyGO.biz.impl;
 
 import com.yxiao23.EasyGO.biz.UsersBiz;
+import com.yxiao23.EasyGO.dao.AgencyInfoDao;
+import com.yxiao23.EasyGO.dao.CarInfoDao;
+import com.yxiao23.EasyGO.dao.OrdersDao;
 import com.yxiao23.EasyGO.dao.UsersDao;
 import com.yxiao23.EasyGO.entity.Users;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,14 +15,19 @@ import java.util.List;
  * @author yulinxiao
  * @date 2018-10-30 23:34
  */
-@Service("usersBiz")
-public class UsersBizImpl implements UsersBiz {
+@Service("ordersBiz")
+public class OrdersBizImpl implements UsersBiz {
     @Autowired
     private UsersDao usersDao;
+    @Autowired
+    private AgencyInfoDao agencyInfoDao;
+    @Autowired
+    private CarInfoDao carInfoDao;
+    @Autowired
+    private OrdersDao ordersDao;
 
     public void add(Users users) {
-        //默认密码
-        users.setPassword("000000");
+
         usersDao.insert(users);
     }
 

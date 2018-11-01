@@ -1,6 +1,5 @@
 package com.yxiao23.EasyGO.biz;
 
-import com.yxiao23.EasyGO.entity.AgencyInfo;
 import com.yxiao23.EasyGO.entity.Users;
 
 import java.util.List;
