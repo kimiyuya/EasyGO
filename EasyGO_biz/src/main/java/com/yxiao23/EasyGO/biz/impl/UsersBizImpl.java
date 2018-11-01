@@ -18,8 +18,10 @@ public class UsersBizImpl implements UsersBiz {
     private UsersDao usersDao;
 
     public void add(Users users) {
-        //默认密码
-        users.setPassword("000000");
+        if(users.getPassword() == null){
+            //默认密码
+            users.setPassword("000000");
+        }
         usersDao.insert(users);
     }
 

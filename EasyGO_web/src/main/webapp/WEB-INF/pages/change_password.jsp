@@ -4,7 +4,7 @@
 <section id="content" class="table-layout animated fadeIn">
     <div class="tray tray-center">
         <div class="content-header">
-            <h2> 修改密码 </h2>
+            <h2> change password </h2>
             <p class="lead"></p>
         </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
@@ -12,12 +12,12 @@
                 <form method="post" action="change_password" id="admin-form">
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
-                            <span> 基本信息 </span>
+                            <span> basic information </span>
                         </div>
                         <div class="section row">
                             <div class="col-md-6">
                                 <label for="old" class="field prepend-icon">
-                                    <input type="password" name="old" id="old" class="gui-input" placeholder="原始密码...">
+                                    <input type="password" name="old" id="old" class="gui-input" placeholder="old password...">
                                     <label for="old" class="field-icon">
                                         <i class="fa fa-lock"></i>
                                     </label>
@@ -27,7 +27,7 @@
                         <div class="section row">
                             <div class="col-md-6">
                                 <label for="new1" class="field prepend-icon">
-                                    <input type="password" name="new1" id="new1" class="gui-input" placeholder="重复密码...">
+                                    <input type="password" name="new1" id="new1" class="gui-input" placeholder="new password...">
                                     <label for="new1" class="field-icon">
                                         <i class="fa fa-lock"></i>
                                     </label>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="new2" class="field prepend-icon">
-                                    <input type="password" name="new2" id="new2" class="gui-input" placeholder="重复密码...">
+                                    <input type="password" name="new2" id="new2" class="gui-input" placeholder="repeat password...">
                                     <label for="new2" class="field-icon">
                                         <i class="fa fa-lock"></i>
                                     </label>
@@ -43,8 +43,8 @@
                             </div>
                         </div>
                         <div class="panel-footer text-right">
-                            <button type="submit" class="button"> 修改 </button>
-                            <button type="button" class="button" onclick="javascript:window.history.go(-1);"> 返回 </button>
+                            <button type="submit" class="button"> update </button>
+                            <button type="button" class="button" onclick="javascript:window.history.go(-1);"> back </button>
                         </div>
                     </div>
                 </form>

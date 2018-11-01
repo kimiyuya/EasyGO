@@ -4,29 +4,29 @@
 <section id="content" class="table-layout animated fadeIn">
     <div class="tray tray-center">
         <div class="content-header">
-            <h2> 个人信息 </h2>
+            <h2> Account </h2>
             <p class="lead"></p>
         </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
                 <div class="panel-body bg-light">
                     <div class="section-divider mt20 mb40">
-                        <span> 基本信息 </span>
+                        <span> Basic Information </span>
                     </div>
                     <div class="section row">
-                        <div class="col-md-2">工号</div>
+                        <div class="col-md-2">User Id</div>
                         <div class="col-md-4">${sessionScope.users.userId}</div>
-                        <div class="col-md-2">姓名</div>
+                        <div class="col-md-2">User name</div>
                         <div class="col-md-4">${sessionScope.users.userName}</div>
                     </div>
                     <div class="section row">
-                        <div class="col-md-2">类别</div>
+                        <div class="col-md-2">User Type</div>
                         <div class="col-md-4">${sessionScope.users.userType}</div>
-                        <div class="col-md-2">电话</div>
+                        <div class="col-md-2">User Phone</div>
                         <div class="col-md-4">${sessionScope.users.userPhone}</div>
                     </div>
                     <div class="panel-footer text-right">
-                        <button type="button" class="button" onclick="javascript:window.history.go(-1);"> 返回 </button>
+                        <button type="button" class="button" onclick="javascript:window.history.go(-1);"> back </button>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 package com.yxiao23.EasyGO.controller;
 
 import com.yxiao23.EasyGO.biz.GlobalBiz;
+import com.yxiao23.EasyGO.biz.UsersBiz;
 import com.yxiao23.EasyGO.entity.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,8 @@ import javax.servlet.http.HttpSession;
 public class GlobalController {
     @Autowired
     private GlobalBiz globalBiz;
+    @Autowired
+    private UsersBiz usersBiz;
 
     @RequestMapping("/to_login")
     public  String toLogin(){
@@ -31,6 +34,34 @@ public class GlobalController {
         }
         session.setAttribute("users",users);
         return "redirect:self";
+    }
+
+    @RequestMapping("/to_register")
+    public  String toRegister(){
+        return "register";
+    }
+
+    @RequestMapping("/register")
+    public String register(HttpSession session,
+                           @RequestParam String id,
+                           @RequestParam String name,
+                           @RequestParam String phone,
+                           @RequestParam String password,
+                           @RequestParam String repassword
+                           ){
+        Users users = new Users();
+        if(password.equals(repassword)){
+            users.setUserId(id);
+            users.setUserName(name);
+            users.setUserPhone(phone);
+            users.setPassword(password);
+            users.setUserType("user");
+            session.setAttribute("users",users);
+            usersBiz.add(users);
+            return "redirect:choose_car";
+        }
+        return "redirect:to_register";
+
     }
 
     @RequestMapping("/self")
