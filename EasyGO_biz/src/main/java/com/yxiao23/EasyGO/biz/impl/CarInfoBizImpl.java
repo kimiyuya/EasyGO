@@ -36,4 +36,10 @@ public class CarInfoBizImpl implements CarInfoBiz {
     public List<CarInfo> getAll() {
         return carInfoDao.selectAll();
     }
+
+    public List<CarInfo> getByAgencyId(String id) {
+        return carInfoDao.getByAgencyId(id);
+    }
+
+
 }

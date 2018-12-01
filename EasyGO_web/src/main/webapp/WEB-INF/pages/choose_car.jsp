@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: junruigong
@@ -14,7 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO"/>
     <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"/>
-
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content=""/>
@@ -33,31 +34,42 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 
     <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="/webfile/css/animate.css">
     <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="/webfile/css/icomoon.css">
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="/webfile/css/bootstrap.css">
     <!-- Superfish -->
-    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="/webfile/css/superfish.css">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="/webfile/css/magnific-popup.css">
     <!-- Date Picker -->
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="/webfile/css/bootstrap-datepicker.min.css">
     <!-- CS Select -->
-    <link rel="stylesheet" href="css/cs-select.css">
-    <link rel="stylesheet" href="css/cs-skin-border.css">
+    <link rel="stylesheet" href="/webfile/css/cs-select.css">
+    <link rel="stylesheet" href="/webfile/css/cs-skin-border.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/choose_car.css" >
+    <link rel="stylesheet" href="/webfile/css/style.css">
+    <link rel="stylesheet" href="/webfile/css/choose_car.css">
 
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="/webfile/js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
+    <script src="/webfile/js/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript">
+
+        function addCookie(carId) {
+            document.cookie = "carId = " + carId;
+
+            // var tmp_cookie = document.cookie;
+            // alert(tmp_cookie);
+        }
+
+    </script>
 </head>
 <body>
 
@@ -76,50 +88,47 @@
                 <div class="row row-bottom-padded-md">
 
 
-                    <div class="col-md-6 animate-box">
-                        <div class="car">
-                            <div class="one-4">
-                                <h2>Economy</h2>
-                                <h4><font color="white">Mitsubishi Mirage</font></h4>
-                                <h5><b>Automatic</b></h5>
-                                <span class="price">$100<small> / day</small></span>
-                                <span class="price">$350<small> Total (Tax incl.)</small></span>
-                                <input type="button">
+                    <c:forEach items="${list}" var="car">
+                        <form method="post" action="/to_review">
+                            <div class="col-md-6 animate-box">
+                                <div class="car">
+                                    <div class="one-4">
+                                        <h2>${car.carType}</h2>
+                                        <h4><font color="white">${car.carName}</font></h4>
+                                        <h5><b>Automatic</b></h5>
+                                        <span class="price"><small>$</small>
+                                                ${car.carPrice}
+                                            <small> / day</small></span>
+
+                                        <button type="submit" class="button" onclick="addCookie(${car.carId})"> SELECT</button>
+                                        <button type="button" class="button" onclick="location.href='/to_write_Review?carId=${car.carId}'"> Write Review</button>
+                                        <button type="button" class="button" onclick="location.href='/to_view_Review?carId=${car.carId}'"> View Review</button>
+
+                                    </div>
+                                    <div class="one-1" style="background-image: url('/webfile/images/car/${car.carImage}');">
+                                        <%--<img src="/webfile/images/car/${car.carImage}">--%>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="one-1" style="background-image: url(images/car-1.jpg);">
-                            </div>
-                        </div>
-                    </div>
+                        </form>
+
+                    </c:forEach>
 
 
-                    <div class="col-md-6 animate-box">
-                        <div class="car">
-                            <div class="one-4">
-                                <h2>Economy</h2>
-                                <span class="price">$100<small> / day</small></span>
-                                <span class="price">$200<small> / week</small></span>
-                                <span class="price">$250<small> / mos.</small></span>
-                                <span class="price">$350<small> Total (Tax incl.)</small></span>
-                            </div>
-                            <div class="one-1" style="background-image: url(images/car-2.jpg);">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-6 animate-box">
-                        <div class="car">
-                            <div class="one-4">
-                                <h2>Luxury</h2>
-                                <span class="price">$100<small> / day</small></span>
-                                <span class="price">$200<small> / week</small></span>
-                                <span class="price">$250<small> / mos.</small></span>
-                                <span class="price">$350<small> Total (Tax incl.)</small></span>
-                            </div>
-                            <div class="one-1" style="background-image: url(images/car-3.jpg);">
-                            </div>
-                        </div>
-                    </div>
+                    <%--<div class="col-md-6 animate-box">--%>
+                    <%--<div class="car">--%>
+                    <%--<div class="one-4">--%>
+                    <%--<h2>Economy</h2>--%>
+                    <%--<h4><font color="white">Mitsubishi Mirage</font></h4>--%>
+                    <%--<h5><b>Automatic</b></h5>--%>
+                    <%--<span class="price">$100<small> / day</small></span>--%>
+                    <%--<span class="price">$350<small> Total (Tax incl.)</small></span>--%>
+                    <%--<input type="button">--%>
+                    <%--</div>--%>
+                    <%--<div class="one-1" style="background-image: url(images/car-1.jpg);">--%>
+                    <%--</div>--%>
+                    <%--</div>--%>
+                    <%--</div>--%>
 
                 </div>
             </div>
@@ -131,32 +140,32 @@
 </div>
 
 
-<script src="js/jquery.min.js"></script>
+<script src="/webfile/js/jquery.min.js"></script>
 <!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
+<script src="/webfile/js/jquery.easing.1.3.js"></script>
 <!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/webfile/js/bootstrap.min.js"></script>
 <!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/sticky.js"></script>
+<script src="/webfile/js/jquery.waypoints.min.js"></script>
+<script src="/webfile/js/sticky.js"></script>
 
 <!-- Stellar -->
-<script src="js/jquery.stellar.min.js"></script>
+<script src="/webfile/js/jquery.stellar.min.js"></script>
 <!-- Superfish -->
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.js"></script>
+<script src="/webfile/js/hoverIntent.js"></script>
+<script src="/webfile/js/superfish.js"></script>
 <!-- Magnific Popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
+<script src="/webfile/js/jquery.magnific-popup.min.js"></script>
+<script src="/webfile/js/magnific-popup-options.js"></script>
 <!-- Date Picker -->
-<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="/webfile/js/bootstrap-datepicker.min.js"></script>
 <!-- CS Select -->
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
+<script src="/webfile/js/classie.js"></script>
+<script src="/webfile/js/selectFx.js"></script>
 
 <!-- Main JS -->
-<script src="js/main.js"></script>
-<script src="../js/select.js"></script>
+<script src="/webfile/js/main.js"></script>
+<script src="/webfile/js/select.js"></script>
 
 </body>
 </html>

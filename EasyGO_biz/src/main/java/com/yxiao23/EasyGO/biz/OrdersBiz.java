@@ -15,4 +15,6 @@ public interface OrdersBiz {
     void remove(String id);
     Orders get(String id);
     List<Orders> getAll();
+
+    List<Orders> getOrderByUserId(String userId);
 }

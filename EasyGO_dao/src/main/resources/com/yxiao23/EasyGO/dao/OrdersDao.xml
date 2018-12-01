@@ -44,4 +44,8 @@
         select * from orders
     </select>
 
+    <select id="getOrderByUserId" parameterType="String" resultMap="orders">
+        select * from orders where user_id=#{userId}
+    </select>
+
 </mapper>

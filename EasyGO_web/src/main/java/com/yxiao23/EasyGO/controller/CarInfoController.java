@@ -8,12 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletContext;
 import java.io.*;
+import java.math.BigDecimal;
 import java.util.Map;
+import java.util.UUID;
 
 /**
  * @author yulinxiao
@@ -45,48 +48,53 @@ public class CarInfoController {
         map.put("typelist", Contant.getType());
         return "carInfo_add";
     }
-    //@RequestParam("carImage") MultipartFile carImage
+
     @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public String add(CarInfo carInfo, @RequestPart("image") MultipartFile image) throws IOException {
-        String path = servletContext.getRealPath("/img");
-        String url = path+"/"+image.getOriginalFilename();
-        image.transferTo(new File(url));
+    public String add(@RequestParam("id") String id,
+                      @RequestParam("image") MultipartFile image,
+                      @RequestParam("brand") String brand,
+                      @RequestParam("name") String name,
+                      @RequestParam("price") double price,
+                      @RequestParam("describe") String describe,
+                      @RequestParam("agencyId") String agencyId,
+                      @RequestParam("type") String type
+                      ) throws IOException {
+        if(image != null){
+            String filePath = servletContext.getRealPath("/img");
+            String originalFilename = image.getOriginalFilename();
+            String newFileName = UUID.randomUUID() + originalFilename.substring(originalFilename.lastIndexOf("."));
+            File file = new File(filePath + "/"+ newFileName);
+            image.transferTo(file);
+            CarInfo carInfo = new CarInfo();
+            carInfo.setCarType(type);
+            carInfo.setCarPrice(price);
+
+            carInfo.setCarName(name);
+            carInfo.setCarId(id);
+            carInfo.setCarDescribe(describe);
+            carInfo.setAgencyId(agencyId);
+            carInfo.setCarBrand(brand);
+            carInfo.setCarImage(newFileName);
+            carInfoBiz.add(carInfo);
+            return "redirect:list";
+        }
+        return "carInfo_add";
 
 
-        //String fileName = carImage.getName();
-        String s = carInfo.getCarImage();
-        System.out.println(s);
-//        if(fileName !=null && !"".equals(fileName)){
-//            String uuidFileName = FileUpload.getUUIDFileName(fileName);
-//            try {
-//                InputStream is = carImage.getInputStream();
-//                String path = servletContext.getRealPath("/img");
-//                url = path + "/" + uuidFileName;
-//                OutputStream os = new FileOutputStream(url);
-//                int len = 0;
-//                byte[] b = new byte[1024];
-//                while ((len = is.read(b)) != -1){
-//                    os.write(b,0,len);
-//                }
-//                is.close();
-//                os.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
 
-        CarInfo car = new CarInfo();
-        car.setAgencyId(carInfo.getAgencyId());
-        car.setCarBrand(carInfo.getCarBrand());
-        car.setCarDescribe(carInfo.getCarDescribe());
-        car.setCarId(carInfo.getCarId());
-        car.setCarImage(url);
-        car.setCarName(carInfo.getCarName());
-        car.setCarPrice(carInfo.getCarPrice());
-        car.setCarType(carInfo.getCarType());
 
-        carInfoBiz.add(car);
-        return "redirect:list";
+//        CarInfo car = new CarInfo();
+//        car.setAgencyId(carInfo.getAgencyId());
+//        car.setCarBrand(carInfo.getCarBrand());
+//        car.setCarDescribe(carInfo.getCarDescribe());
+//        car.setCarId(carInfo.getCarId());
+//        car.setCarImage(url);
+//        car.setCarName(carInfo.getCarName());
+//        car.setCarPrice(carInfo.getCarPrice());
+//        car.setCarType(carInfo.getCarType());
+//
+//        carInfoBiz.add(car);
+
     }
 
     @RequestMapping(value = "/to_update", params = "id")
@@ -108,4 +116,6 @@ public class CarInfoController {
         carInfoBiz.remove(id);
         return "redirect:list";
     }
+
+
 }

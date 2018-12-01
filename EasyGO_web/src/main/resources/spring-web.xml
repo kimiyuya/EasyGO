@@ -38,5 +38,7 @@
             <!--<bean class="com.yxiao23.EasyGO.global.LoginInterceptor"/>-->
         <!--</mvc:interceptor>-->
     <!--</mvc:interceptors>-->
+    <!-- conversion-service="conversionService" -->
+
 
 </beans>

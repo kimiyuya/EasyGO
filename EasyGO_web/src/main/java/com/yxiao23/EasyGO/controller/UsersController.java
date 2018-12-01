@@ -6,6 +6,7 @@ import com.yxiao23.EasyGO.global.Contant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
 
@@ -39,8 +40,14 @@ public class UsersController {
         return "redirect:list";
     }
 
-    @RequestMapping(value = "/to_update", params = "id")
-    public String toUpdate(String id,Map<String,Object> map){
+//    以下两种写法都可以
+//    @RequestMapping(value = "/to_update", params = "id")
+//    public String toUpdate(String id,Map<String,Object> map){
+//        map.put("users",usersBiz.get(id));
+//        return "users_update";
+//    }
+    @RequestMapping(value = "/to_update")
+    public String toUpdate(Map<String,Object> map, @RequestParam(value = "id") String id){
         map.put("users",usersBiz.get(id));
         return "users_update";
     }

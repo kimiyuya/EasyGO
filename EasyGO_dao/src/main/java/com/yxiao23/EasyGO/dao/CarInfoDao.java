@@ -17,4 +17,7 @@ public interface CarInfoDao {
     void delete(String id);
     CarInfo select(String id);
     List<CarInfo> selectAll();
+
+    //根据agencyid查询该ID下有多少辆汽车，然后返回一个list
+    List<CarInfo> getByAgencyId(String id);
 }

@@ -34,4 +34,13 @@
         select * from agencyInfo
     </select>
 
+    <!--根据用户输入的zip信息查询该地区的所有agency的经纬度-->
+    <select id="getLocationByZip" parameterType="String" resultMap="agencyInfo">
+        select * from agencyInfo where agency_location=#{agencyLocation}
+    </select>
+    <!--根据用户输入的zip信息查询该地区的车辆数量-->
+    <!--<select id="getCountOfCarByZip" parameterType="String" resultType="int">-->
+        <!--select count(*) from carInfo where agency_id =-->
+        <!--(select agency_id from agencyInfo where agency_location=#{agencyLocation})-->
+    <!--</select>-->
 </mapper>

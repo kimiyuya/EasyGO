@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:include page="top.jsp"/>
 <section id="content" class="table-layout animated fadeIn">
@@ -9,42 +10,27 @@
         </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
-                <form:form action="/carInfo/add" modelAttribute="carinfo"  id="admin-form" name="addForm" enctype="multipart/form-data">
+                <%--<form:form action="/carInfo/add" modelAttribute="carinfo"  id="admin-form" name="addForm" enctype="multipart/form-data">--%>
+                <form action="/carInfo/add" method="post" id="admin-form" name="addForm" enctype="multipart/form-data">
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
                             <span> basic information </span>
                         </div>
                         <div class="section row">
                             <div class="col-md-6">
-                                <label for="carId" class="field prepend-icon">
-                                    <form:input path="carId" cssClass="gui-input" placeholder="id..." />
-                                    <label for="carId" class="field-icon">
+                                <label for="id" class="field prepend-icon">
+                                    <%--<input path="carId" cssClass="gui-input" placeholder="id..." />--%>
+                                    <input type="text" name="id" id="id" cssClass="gui-input" placeholder="id..." />
+                                    <label for="id" class="field-icon">
                                         <i class="fa fa-user"></i>
                                     </label>
                                 </label>
                             </div>
                             <div class="col-md-6">
-                                <label for="carBrand" class="field prepend-icon">
-                                    <form:input path="carBrand" class="gui-input" placeholder="Brand..."/>
-                                    <label for="carBrand" class="field-icon">
-                                        <i class="fa fa-user"></i>
-                                    </label>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="section row">
-                            <div class="col-md-6">
-                                <label for="carName" class="field prepend-icon">
-                                    <form:input path="carName" cssClass="gui-input" placeholder="CarName..." />
-                                    <label for="carName" class="field-icon">
-                                        <i class="fa fa-user"></i>
-                                    </label>
-                                </label>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="carPrice" class="field prepend-icon">
-                                    <form:input path="carPrice" class="gui-input" placeholder="price..."/>
-                                    <label for="carPrice" class="field-icon">
+                                <label for="brand" class="field prepend-icon">
+                                    <%--<form:input path="carBrand" class="gui-input" placeholder="Brand..."/>--%>
+                                    <input type="text" name="brand" id="brand" class="gui-input" placeholder="Brand..."/>
+                                    <label for="brand" class="field-icon">
                                         <i class="fa fa-user"></i>
                                     </label>
                                 </label>
@@ -52,17 +38,35 @@
                         </div>
                         <div class="section row">
                             <div class="col-md-6">
-                                <label for="carDescribe" class="field prepend-icon">
-                                    <form:input path="carDescribe" cssClass="gui-input" placeholder="Describe..." />
-                                    <label for="carDescribe" class="field-icon">
+                                <label for="name" class="field prepend-icon">
+                                    <input type="text" name="name" id="name" cssClass="gui-input" placeholder="CarName..." />
+                                    <label for="name" class="field-icon">
                                         <i class="fa fa-user"></i>
                                     </label>
                                 </label>
                             </div>
                             <div class="col-md-6">
-                                <label for="carImage" class="field prepend-icon">
-                                    <form:input type="file" name="image" path="carImage" class="gui-input" placeholder="Image..."/>
-                                    <label for="carImage" class="field-icon">
+                                <label for="price" class="field prepend-icon">
+                                    <input type="number" name="price" id="price" class="gui-input" placeholder="price..."/>
+                                    <label for="price" class="field-icon">
+                                        <i class="fa fa-user"></i>
+                                    </label>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="section row">
+                            <div class="col-md-6">
+                                <label for="describe" class="field prepend-icon">
+                                    <input type="text" name="describe" id="describe" cssClass="gui-input" placeholder="Describe..." />
+                                    <label for="describe" class="field-icon">
+                                        <i class="fa fa-user"></i>
+                                    </label>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="image" class="field prepend-icon">
+                                    <input type="file" name="image" id="image" class="gui-input" placeholder="Image..."/>
+                                    <label for="image" class="field-icon">
                                         <i class="fa fa-user"></i>
                                     </label>
                                 </label>
@@ -71,14 +75,21 @@
                         <div class="section row">
                             <div class="col-md-6">
                                 <label for="agencyId" class="field select">
-                                    <form:select path="agencyId" items="${agencylist}" itemLabel="agencyId" itemValue="agencyId" cssClass="gui-input" placeholder="Agency..."/>
+                                    <select  items="${agencylist}" name="agencyId" id="agencyId" itemLabel="agencyId" itemValue="agencyId" cssClass="gui-input" placeholder="Agency..."/>
+                                        <c:forEach items="${agencylist}" var="aglist">
+                                            <option value="${aglist.agencyId}">${aglist.agencyName}</option>
+                                        </c:forEach>
                                     <i class="arrow double"></i>
                                 </label>
                             </div>
                             <div class="col-md-6">
-                                <label for="carType" class="field select">
-                                    <form:select path="carType" items="${typelist}" cssClass="gui-input" placeholder="type..."/>
-                                    <i class="arrow double"></i>
+                                <label for="type" class="field select">
+                                    <%--<select name="type" id="type" cssClass="gui-input" placeholder="type..."/>--%>
+                                        <%--<c:forEach items="${typelist}" var="tlist">--%>
+                                            <%--<option value="${tlist}">${tlist}</option>--%>
+                                        <%--</c:forEach>--%>
+                                    <%--<i class="arrow double"></i>--%>
+                                    <input type="text" name="type" id="type" class="gui-input" placeholder="Image..."/>
                                 </label>
                             </div>
                         </div>
@@ -87,7 +98,7 @@
                             <button type="button" class="button" onclick="javascript:window.history.go(-1);"> back </button>
                         </div>
                     </div>
-                </form:form>
+                </form>
             </div>
         </div>
     </div>

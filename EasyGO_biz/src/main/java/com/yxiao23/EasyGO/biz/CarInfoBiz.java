@@ -14,4 +14,6 @@ public interface CarInfoBiz {
     void remove(String id);
     CarInfo get(String id);
     List<CarInfo> getAll();
+
+    List<CarInfo> getByAgencyId(String id);
 }

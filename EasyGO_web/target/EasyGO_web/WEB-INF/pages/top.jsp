@@ -104,11 +104,11 @@
                     </a>
                     <ul class="nav sub-nav">
                         <li>
-                            <a href="/carInfo/list">
+                            <a href="/orders/list">
                                 <span class="glyphicon glyphicon-calendar"></span> All Orders </a>
                         </li>
                         <li class="active">
-                            <a href="/carInfo/to_add">
+                            <a href="/orders/to_add">
                                 <span class="glyphicon glyphicon-check"></span> Add Orders </a>
                         </li>
                     </ul>

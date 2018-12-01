@@ -4,6 +4,7 @@ import com.yxiao23.EasyGO.entity.AgencyInfo;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author yulinxiao
@@ -16,4 +17,7 @@ public interface AgencyInfoDao {
     void delete(String id);
     AgencyInfo select(String id);
     List<AgencyInfo> selectAll();
+
+    List<AgencyInfo> getLocationByZip(String zip);
+    //int getCountOfCarByZip(String zip);
 }

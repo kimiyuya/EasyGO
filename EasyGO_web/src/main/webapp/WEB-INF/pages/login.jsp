@@ -57,6 +57,20 @@
     <!--[if lt IE 9]>
     <script src="/webfile/js/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript">
+
+        function addCookie() {
+
+            document.cookie = "userId = " + document.getElementById("id").value;
+
+            //document.location.href="/to_c";  //跳转到后台
+
+            // var tmp_cookie = document.cookie;
+            // alert(tmp_cookie);
+        }
+
+
+    </script>
 </head>
 <body>
 
@@ -104,14 +118,15 @@
 
                                                     <div class="col-sm-12 mt">
                                                         <section>
-                                                            <input type="checkbox" name="manager" value="Manager" />&nbsp;
+                                                            <input type="checkbox" name="type" value="1"/>
                                                             <label for="class"> I'm a manager</label>
+                                                            <input type="hidden" name="type"/>
                                                         </section>
                                                     </div>
 
 
                                                     <div class="col-xs-12">
-                                                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                                        <button type="submit" class="btn btn-primary btn-block" onclick="addCookie()">Login</button>
                                                         <label class="switch ib switch-primary mt10">
                                                             <input type="checkbox" name="remember" id="remember" checked="true">
                                                             <label for="remember" data-on="yes" data-off="no"></label>

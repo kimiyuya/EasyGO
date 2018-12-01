@@ -11,13 +11,12 @@ public class CarInfo {
     private  String carBrand;
     private  String carName;
     private  String carType;
-    private BigDecimal carPrice;
+    private double carPrice;
     private  String carDescribe;
     private  String carImage;
     private  String agencyId;
-    private  AgencyInfo agencyInfo;//待定
+    private  AgencyInfo agencyInfo;
 
-    //待定
     public AgencyInfo getAgencyInfo() {
         return agencyInfo;
     }
@@ -58,11 +57,11 @@ public class CarInfo {
         this.carType = carType;
     }
 
-    public BigDecimal getCarPrice() {
+    public double getCarPrice() {
         return carPrice;
     }
 
-    public void setCarPrice(BigDecimal carPrice) {
+    public void setCarPrice(double carPrice) {
         this.carPrice = carPrice;
     }
 

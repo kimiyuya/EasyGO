@@ -18,4 +18,6 @@ public interface OrdersDao {
     void delete(String id);
     Orders select(String id);
     List<Orders> selectAll();
+
+    List<Orders> getOrderByUserId(String userId);
 }

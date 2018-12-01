@@ -8,7 +8,7 @@
         <result property="carBrand" column="car_brand" javaType="String"/>
         <result property="carName" column="car_name" javaType="String"/>
         <result property="carType" column="car_type" javaType="String"/>
-        <result property="carPrice" column="car_price" javaType="BigDecimal"/>
+        <result property="carPrice" column="car_price" javaType="double"/>
         <result property="carDescribe" column="car_describe" javaType="String"/>
         <result property="carImage" column="car_image" javaType="String"/>
         <result property="agencyId" column="agency_id" javaType="String"/>
@@ -46,5 +46,11 @@
         select c.*,a.agency_id aid,a.agency_name,a.agency_location,a.agency_phone
         from carInfo c left join agencyInfo a on a.agency_id=c.agency_id
     </select>
+
+    <select id="getByAgencyId" parameterType="String" resultMap="carInfo">
+         select * FROM carInfo where agency_id =#{agencyId}
+    </select>
+
+
 
 </mapper>
