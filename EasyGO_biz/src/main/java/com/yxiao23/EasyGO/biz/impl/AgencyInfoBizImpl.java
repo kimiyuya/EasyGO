@@ -5,6 +5,7 @@ import com.yxiao23.EasyGO.dao.AgencyInfoDao;
 import com.yxiao23.EasyGO.dao.ResultBeanDao;
 import com.yxiao23.EasyGO.entity.AgencyInfo;
 import com.yxiao23.EasyGO.entity.ResultBean;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,7 @@ public class AgencyInfoBizImpl implements AgencyInfoBiz {
     private AgencyInfoDao agencyInfoDao;
     @Autowired
     private ResultBeanDao resultBeanDao;
+
 
     public void add(AgencyInfo agencyInfo) {
         agencyInfoDao.insert(agencyInfo);

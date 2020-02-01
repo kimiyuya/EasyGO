@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yxiao23.EasyGO.dao.TransactionDao">
+
+
+    <resultMap id="transaction" type="List">
+        <!--<id property="agencyId" column="agency_id" javaType="String"/>-->
+        <!--<result property="agencyLocation" column="agency_location" javaType="String"/>-->
+        <result property="amount" column="soldAmount" javaType="int"/>
+        <result property="date" column="create_time" javaType="Date"/>
+
+        <!--<result property="amount" column="agency_latitude" javaType="double"/>-->
+    </resultMap>
+
+    <select id="getTransaction" resultMap="transaction">
+        SELECT count(create_time) as soldAmount, create_time from orders group by create_time
+    </select>
+
+</mapper>

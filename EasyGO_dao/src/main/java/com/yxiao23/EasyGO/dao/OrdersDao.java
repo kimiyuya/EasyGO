@@ -1,6 +1,7 @@
 package com.yxiao23.EasyGO.dao;
 
 import com.yxiao23.EasyGO.entity.Orders;
+import com.yxiao23.EasyGO.entity.Transaction;
 import com.yxiao23.EasyGO.entity.Users;
 import org.springframework.stereotype.Repository;
 
@@ -20,4 +21,6 @@ public interface OrdersDao {
     List<Orders> selectAll();
 
     List<Orders> getOrderByUserId(String userId);
+
+    List<Transaction> getTransaction();
 }

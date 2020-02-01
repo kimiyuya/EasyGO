@@ -1,6 +1,7 @@
 package com.yxiao23.EasyGO.biz;
 
 import com.yxiao23.EasyGO.entity.Orders;
+import com.yxiao23.EasyGO.entity.Transaction;
 
 import java.util.List;
 
@@ -17,4 +18,6 @@ public interface OrdersBiz {
     List<Orders> getAll();
 
     List<Orders> getOrderByUserId(String userId);
+
+    List<Transaction> getTransaction();
 }

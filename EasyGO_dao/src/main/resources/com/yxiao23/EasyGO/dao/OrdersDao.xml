@@ -48,4 +48,8 @@
         select * from orders where user_id=#{userId}
     </select>
 
+    <select id="getTransaction" resultMap="orders">
+        SELECT count(create_time) as soldAmount, create_time from orders group by create_time
+    </select>
+
 </mapper>

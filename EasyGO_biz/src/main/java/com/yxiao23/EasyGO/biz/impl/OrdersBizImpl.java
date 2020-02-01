@@ -2,11 +2,9 @@ package com.yxiao23.EasyGO.biz.impl;
 
 import com.yxiao23.EasyGO.biz.OrdersBiz;
 import com.yxiao23.EasyGO.biz.UsersBiz;
-import com.yxiao23.EasyGO.dao.AgencyInfoDao;
-import com.yxiao23.EasyGO.dao.CarInfoDao;
-import com.yxiao23.EasyGO.dao.OrdersDao;
-import com.yxiao23.EasyGO.dao.UsersDao;
+import com.yxiao23.EasyGO.dao.*;
 import com.yxiao23.EasyGO.entity.Orders;
+import com.yxiao23.EasyGO.entity.Transaction;
 import com.yxiao23.EasyGO.entity.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,6 +25,8 @@ public class OrdersBizImpl implements OrdersBiz {
     private CarInfoDao carInfoDao;
     @Autowired
     private OrdersDao ordersDao;
+    @Autowired
+    private TransactionDao transactionDao;
 
     public void add(Orders orders) {
 
@@ -51,6 +51,10 @@ public class OrdersBizImpl implements OrdersBiz {
 
     public List<Orders> getOrderByUserId(String userId) {
         return ordersDao.getOrderByUserId(userId);
+    }
+
+    public List<Transaction> getTransaction() {
+        return transactionDao.getTransaction();
     }
 
 

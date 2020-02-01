@@ -22,8 +22,12 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <!-- 在声明式的事务处理中，要配置一个切面，即一组方法， -->
     <tx:advice id="txAdvice" transaction-manager="transationManager">
         <tx:attributes>
+            <!-- 一次执行多次查询来统计某些信息，这时为了保证数据整体的一致性，要用只读事务
+             在将事务设置成只读后，相当于将数据库设置成只读数据库，此时若要进行写的操作，会出现错误-->
+
             <tx:method name="get*" read-only="true"/>
             <tx:method name="find*" read-only="true"/>
             <tx:method name="search*" read-only="true"/>
@@ -32,6 +36,7 @@
     </tx:advice>
 
     <aop:config>
+        <!-- 第一个*号表示该包下所有的类；第二个*号表示该类下的所有方法，（..）表示所有参数的方法，没写点就是默认无参的方法 -->
         <aop:pointcut id="txpc" expression="execution(* com.yxiao23.EasyGO.biz.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txpc"/>
     </aop:config>

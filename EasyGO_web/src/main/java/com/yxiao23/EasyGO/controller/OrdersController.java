@@ -3,10 +3,10 @@ package com.yxiao23.EasyGO.controller;
 import com.yxiao23.EasyGO.biz.AgencyInfoBiz;
 import com.yxiao23.EasyGO.biz.CarInfoBiz;
 import com.yxiao23.EasyGO.biz.OrdersBiz;
-import com.yxiao23.EasyGO.entity.CarInfo;
-import com.yxiao23.EasyGO.entity.Orders;
-import com.yxiao23.EasyGO.entity.Users;
+import com.yxiao23.EasyGO.entity.*;
 import com.yxiao23.EasyGO.global.Contant;
+import com.yxiao23.EasyGO.utilities.MySqlDataStoreUtilities;
+import net.sf.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -19,10 +19,7 @@ import javax.servlet.http.HttpSession;
 import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * @author yulinxiao
@@ -39,15 +36,15 @@ public class OrdersController {
 
 
     @RequestMapping("/list")
-    public String list(Map<String,Object> map){
-        map.put("list",ordersBiz.getAll());
+    public String list(Map<String, Object> map) {
+        map.put("list", ordersBiz.getAll());
         return "orders_list";
     }
 
     //多这一步是为了使用springmvc的form标签，所以必须传一个对象过来
     @RequestMapping("/to_add")
-    public String toAdd(Map<String,Object> map){
-        map.put("orders",new CarInfo());
+    public String toAdd(Map<String, Object> map) {
+        map.put("orders", new CarInfo());
         //map.put("orderslist",ordersBiz.getAll());
         return "orders_add";
     }
@@ -60,7 +57,7 @@ public class OrdersController {
                       @RequestParam("agencyId") String agencyId,
                       @RequestParam("carId") String carId,
                       @RequestParam("pickupTime") String pickupTime,
-                      @RequestParam("returnTime") String returnTime){
+                      @RequestParam("returnTime") String returnTime) {
         Orders orders = new Orders();
         //将实时时间点设置为订单编号
         SimpleDateFormat df = new SimpleDateFormat("HHmmss");//设置日期格式
@@ -120,10 +117,10 @@ public class OrdersController {
             @RequestParam("lastName") String lname,
             @RequestParam("phoneNumber") String phone,
             HttpSession httpSession,
-            Model model){
+            Model model) {
 
         String userId = (String) httpSession.getAttribute("userId");
-        if("".equals(userId) && null == userId){
+        if ("".equals(userId) && null == userId) {
             userId = "null";
         }
 
@@ -184,8 +181,8 @@ public class OrdersController {
 //        return "users_update";
 //    }
     @RequestMapping(value = "/to_update")
-    public String toUpdate(Map<String,Object> map, @RequestParam(value = "id") String id){
-        map.put("orders",ordersBiz.get(id));
+    public String toUpdate(Map<String, Object> map, @RequestParam(value = "id") String id) {
+        map.put("orders", ordersBiz.get(id));
         return "orders_update";
     }
 
@@ -193,7 +190,7 @@ public class OrdersController {
     public String update(@RequestParam("orderId") String orderId,
                          @RequestParam("pickupTime") String pickupTime,
                          @RequestParam("returnTime") String returnTime,
-                         @RequestParam("orderStatus") String status){
+                         @RequestParam("orderStatus") String status) {
 
         Orders orders = ordersBiz.get(orderId);
 
@@ -227,8 +224,22 @@ public class OrdersController {
     }
 
     @RequestMapping(value = "/remove", params = "id")
-    public String remove(String id){
+    public String remove(String id) {
         ordersBiz.remove(id);
         return "redirect:list";
+    }
+
+    @RequestMapping(value = "/to_sale_report")
+    public String toSaleReport(Model model) {
+        List<Transaction> transaction = MySqlDataStoreUtilities.selectDailyTransaction();
+        List<RentalAmount> rentalAmounts = MySqlDataStoreUtilities.selectSaleAmount();
+
+        JSONArray rentalAmountsJson = JSONArray.fromObject(rentalAmounts);
+        System.out.println(rentalAmountsJson);
+        model.addAttribute("rentalAmounts", rentalAmounts);
+        model.addAttribute("rentalAmountsJson", rentalAmountsJson);
+        model.addAttribute("transaction", transaction);
+
+        return "sale_report";
     }
 }

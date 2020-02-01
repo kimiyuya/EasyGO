@@ -81,20 +81,6 @@ public class CarInfoController {
         return "carInfo_add";
 
 
-
-
-//        CarInfo car = new CarInfo();
-//        car.setAgencyId(carInfo.getAgencyId());
-//        car.setCarBrand(carInfo.getCarBrand());
-//        car.setCarDescribe(carInfo.getCarDescribe());
-//        car.setCarId(carInfo.getCarId());
-//        car.setCarImage(url);
-//        car.setCarName(carInfo.getCarName());
-//        car.setCarPrice(carInfo.getCarPrice());
-//        car.setCarType(carInfo.getCarType());
-//
-//        carInfoBiz.add(car);
-
     }
 
     @RequestMapping(value = "/to_update", params = "id")

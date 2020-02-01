@@ -13,6 +13,49 @@
     <link rel="stylesheet" type="text/css" href="/assets/skin/default_skin/css/theme.css">
     <link rel="stylesheet" type="text/css" href="/assets/admin-tools/admin-forms/css/admin-forms.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type='text/javascript'>
+
+        // Load the Visualization API and the corechart package.
+        google.charts.load('current', {'packages': ['corechart']});
+
+        // Set a callback to run when the Google Visualization API is loaded.
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Callback that creates and populates a data table,
+        // instantiates the pie chart, passes in the data and
+        // draws it.
+        function drawChart() {
+
+            var data = ${transactionJson};
+            var locations = [];
+            for(var j in data){
+                locations[j] = [];
+                for(var k in data[j]){
+                    locations[j].push(data[j][k]);
+                }
+                // alert(locations[0][0]);
+            }
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Car Name');
+            data.addColumn('number', 'Rental Amount');
+            data.addRows(locations);
+            // Set chart options
+            var options = {
+                'title': 'Sales Report',
+                'width': 800,
+                'height': 500
+            };
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+    </script>
 </head>
 
 <body class="admin-validation-page" data-spy="scroll" data-target="#nav-spy" data-offset="200">
@@ -110,6 +153,10 @@
                         <li class="active">
                             <a href="/orders/to_add">
                                 <span class="glyphicon glyphicon-check"></span> Add Orders </a>
+                        </li>
+                        <li class="active">
+                            <a href="/orders/to_sale_report">
+                                <span class="glyphicon glyphicon-check"></span> Sales Report </a>
                         </li>
                     </ul>
                 </li>
